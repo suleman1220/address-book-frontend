@@ -1,6 +1,6 @@
 # AddressBook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+This is a basic address/phone book app frontend made with angular 10.
 
 ## Development server
 
