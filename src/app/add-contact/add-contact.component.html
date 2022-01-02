@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>Enter Details of New Contact</h1>
+
+<mat-dialog-content>
+  <mat-form-field class="full-width-field">
+    <mat-label>First Name</mat-label>
+    <input [(ngModel)]="data.firstName" type="text" matInput name="firstName">
+  </mat-form-field>
+
+  <mat-form-field class="full-width-field">
+    <mat-label>Last Name</mat-label>
+    <input [(ngModel)]="data.lastName" type="text" matInput name="lastName">
+  </mat-form-field>
+
+  <mat-form-field class="full-width-field">
+    <mat-label>Phone Number</mat-label>
+    <span matPrefix style="margin-right: 5px;">+92</span>
+    <input [(ngModel)]="data.phone" type="number" matInput name="phone">
+  </mat-form-field>
+
+  <mat-form-field class="full-width-field">
+    <mat-label>Address</mat-label>
+    <input [(ngModel)]="data.address" type="text" matInput name="address">
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-stroked-button color="primary" mat-dialog-close (click)="addContact()">Add Contact</button>
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

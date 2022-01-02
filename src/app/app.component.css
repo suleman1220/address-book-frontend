@@ -1,0 +1,66 @@
+.header {
+  text-align: center;
+}
+
+#contacts {
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-left: 5px;
+}
+
+.icon {
+  font-size: 50px;
+  width: 50px;
+}
+
+mat-card {
+  width: 25%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.contact-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.contact-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.contact-data {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.tab-icon {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 840px) {
+  mat-card {
+    width: 80%;
+  }
+}

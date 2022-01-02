@@ -1,0 +1,10 @@
+{
+  "/contacts": {
+    "target": "http://localhost:3000/servlet-api/contacts",
+    "secure": true,
+    "pathRewrite": {
+      "^/contacts": ""
+    },
+    "changeOrigin": true
+  }
+}
