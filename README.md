@@ -1,6 +1,6 @@
 # AddressBook
 
-This is a basic address/phone book app frontend made with angular 10.
+This is a simple address/phone book app frontend made with angular 10.
 
 ## Development server
 
